@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke test Suite" verbose="1" >
+    <test name="Smoke"   >
+        <packages>
+            <package name="com.techproed.smokeTest" />
+            <package name="com.techproed.excelautomation" />
+        </packages>
+    </test>
+</suite>
+
+
+
+<!--CREATE an text xml file-->
+<!--        1. Right click on the the project-->
+<!--        2. New->file->smoketest.xml-->
+<!--        3. <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > ,
+whenever we need xml file we have-->
+<!--        to use this. Just copy and paste-->
+<!--        4. That Signature of the file got from the documentation https://-->
+<!--        testng.org/doc/documentation-main.html-->
+<!--        5. Create suite, tests, packages, classes, etc.-->
+<!--        6. When we give any path, we have to use start from the-->
+<!--        package:-->
+<!--        7. package.(package if another exist inside).class-->
+<!--        8. Verbose is the level of information on the report.-->

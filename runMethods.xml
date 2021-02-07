@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Run methods suite" verbose="1" >
+    <test name="Run methods1" >
+        <classes>
+            <class name="com.techproed.smokeTest.Day12_NegativeTest" >
+                <methods>
+                    <include name="invalidID" />
+                    <include name="invalidPassword" />
+                </methods>
+            </class>
+            <class name="com.techproed.tests.Day07_AlertTest" >
+                <methods>
+                    <exclude name="acceptAlertTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
+
