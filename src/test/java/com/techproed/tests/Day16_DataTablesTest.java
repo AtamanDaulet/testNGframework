@@ -9,7 +9,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Day16_DataTablesTest {
+public class
+Day16_DataTablesTest {
 	/*
 	 Given user is on the datatables
     And user clicks on new button
